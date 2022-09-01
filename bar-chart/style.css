@@ -1,0 +1,22 @@
+:root {
+  --unit-size: 0.5rem;
+}
+
+#bars {
+  width: 90%;
+  /* background-color: blue; */
+  height: calc(var(--unit-size) * 32);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: end;
+  list-style: none;
+  padding-inline: 1rem;
+}
+.bar {
+  background-color: palevioletred;
+  outline: 1px solid black;
+  margin-inline: 2px;
+  flex: 1;
+}
