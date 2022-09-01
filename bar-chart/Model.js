@@ -6,6 +6,6 @@ for (let i = 0; i < 40; i++) {
 }
 
 function getCustomersQty() {
-  //Fake data entry
-  return Math.floor(Math.random() * 32);
+  // Changed to 33 since it uses floor, as 32 it rounds down to 31;
+  return Math.floor(Math.random() * 33);
 }
