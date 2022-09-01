@@ -1,7 +1,9 @@
 :root {
   --unit-size: 0.5rem;
 }
-
+body {
+  min-height: 100vh;
+}
 #bars {
   width: 90%;
   /* background-color: blue; */
@@ -19,4 +21,7 @@
   outline: 1px solid black;
   margin-inline: 2px;
   flex: 1;
+}
+.highlight {
+  background-color: blue;
 }
