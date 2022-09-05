@@ -1,0 +1,14 @@
+main {
+  display: flex;
+}
+.color_container {
+  width: 14rem;
+  padding: 1rem;
+}
+
+.color_box {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}

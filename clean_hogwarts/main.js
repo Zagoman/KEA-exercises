@@ -113,4 +113,3 @@ document.addEventListener("DOMContentLoaded", init);
 /**
  * View
  */
-// console.table(students);
